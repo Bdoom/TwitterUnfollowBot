@@ -13,10 +13,10 @@ public class TwitterUnfollowBot {
 	private void initConfiguration() {
 		
 		ConfigurationBuilder builder = new ConfigurationBuilder();
-		builder.setOAuthConsumerKey("MbD0FQ548RpxEIoMcfJ7zrttd");
-		builder.setOAuthConsumerSecret("b7NZ95t3MwGlwjJlXxkrLqw7KtGbzJ8MN7dUVqEWYKmsuk8TZG");
-		builder.setOAuthAccessToken("4075713333-xNjbd90p3r1w0ywH39Idfc7sxLWy8jOkuJsOVeF");
-		builder.setOAuthAccessTokenSecret("ms1pEZtt9UIyRgTxoUg3kWjpdcsiULw3UKi79K04yRBW6");
+		builder.setOAuthConsumerKey("");
+		builder.setOAuthConsumerSecret("");
+		builder.setOAuthAccessToken("");
+		builder.setOAuthAccessTokenSecret("");
 		Configuration configuration = builder.build();
 		TwitterFactory factory = new TwitterFactory(configuration);
 		twitter = factory.getInstance();
